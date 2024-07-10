@@ -1,3 +1,9 @@
+const initialItems = [
+  { id: 1, description: "Passports", quantity: 2, packed: false },
+  { id: 2, description: "Socks", quantity: 12, packed: false },
+];
+
+
 function App() {
   return (
     <div class="app">
@@ -12,7 +18,7 @@ function App() {
 export default App;
 
 function Logo() {
-  return <h1> ⛰ Far Away 🌁 </h1>;
+  return <h1> 🏞 Far Away 🌁 </h1>;
 }
 
 function Form() {

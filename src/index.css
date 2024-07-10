@@ -1,9 +1,5 @@
-/* 
-const initialItems = [
-  { id: 1, description: "Passports", quantity: 2, packed: false },
-  { id: 2, description: "Socks", quantity: 12, packed: false },
-];
-*/
+
+
 
 @import url("https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@500;700&display=swap");
 
@@ -20,8 +16,8 @@ html {
 body {
   font-size: 2.4rem;
   font-family: sans-serif;
-  color: #5a3e2b;
-  font-family: "Quicksand";
+  color: #27282a;
+  font-family: "SF Pro Display";
   font-weight: 500;
 }
 
@@ -34,8 +30,8 @@ body {
 
 h1 {
   text-align: center;
-  background-color: #f4a226;
-  font-family: "Monoton";
+  background-color: #96CEE7;
+  font-family: "Helvetica Neue";
   font-size: 8rem;
   text-transform: uppercase;
   font-weight: 400;
@@ -45,7 +41,7 @@ h1 {
 }
 
 .add-form {
-  background-color: #e5771f;
+  background-color: #82AFD3;
   padding: 2.8rem 0;
   display: flex;
   align-items: center;
@@ -62,7 +58,7 @@ button,
 select,
 input {
   background-color: #ffebb3;
-  color: #5a3e2b;
+  color: #0e0d0d;
   font-family: inherit;
   border: none;
   border-radius: 10rem;
@@ -78,8 +74,8 @@ input {
 }
 
 .list {
-  background-color: #5a3e2b;
-  color: #ffebb3;
+  background-color: #456076;
+  color: #ffffff;
   padding: 4rem 0;
 
   display: flex;
@@ -132,7 +128,7 @@ input[type="checkbox"] {
 }
 
 .stats {
-  background-color: #76c7ad;
+  background-color: #96CEE7;
   text-align: center;
   font-weight: 700;
   padding: 3.2rem 0;
