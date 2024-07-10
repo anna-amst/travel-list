@@ -57,7 +57,7 @@ h3 {
 button,
 select,
 input {
-  background-color: #ffebb3;
+  background-color: #f8f7f5;
   color: #0e0d0d;
   font-family: inherit;
   border: none;
@@ -70,7 +70,7 @@ input {
 
 .add-form button {
   text-transform: uppercase;
-  background-color: #76c7ad;
+  background-color: #f8f7f5;
 }
 
 .list {
